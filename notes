@@ -1,0 +1,35 @@
+Web features Created
+
+Options:
+- Graph Style
+- StdDev Style
+
+Got with graph style
+StdDev is discoun.
+
+Stucture
+- Flexible
+- Have All the Types of Data Stored in One unit
+- Create a file that reads off that and plugs in into whatever equations that are nessary
+
+All data
+- How many mouse-clicks per number
+- Length of Data-Set
+- Net change in the x-direction --> x(final) - x(inital)
+- Net Change in the y-direction --> y(final) - y(final)
+
+--------------------------------
+
+ML system finished - 4/11/2024
+
+Operations
+1. Creator.html creates the data
+2. Plug .JSON into file labeled "Data"
+3. Execute SortData.js in terminal
+4. Execute Search.js in terminal
+5. Execute Finder.js in terminal --> Predicts data from .JSON (Created from creator.html)
+
+Use the Graph
+1. Execute Search.js in terminal
+2. Copy Output.json ( results )
+3. Paste it into the allData variable in visual.html

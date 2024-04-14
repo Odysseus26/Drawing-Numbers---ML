@@ -1,0 +1,30 @@
+body{
+    background-color: skyblue;
+    color: white;
+    overscroll-behavior: none;
+}
+
+
+#content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+
+button {
+    padding: 2px 10px 2px 10px;
+    border-radius: 5px;
+}
+
+
+#counter{
+    font-size: larger;
+    font-weight: 900;
+}
+
+#student{
+    visibility: hidden;
+}

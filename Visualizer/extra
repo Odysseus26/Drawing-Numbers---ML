@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart(axis1,axis2,callerId,info) {
+        let mod = [];
+        //Organized by Number,Axis 1, Axis 2
+        info = info.split("#")
+        for(let i=0;i<info.length;i++){
+            let start = info.split("")
+        }
+
+        var data = google.visualization.arrayToDataTable([
+          [axis1, axis2,"1","2","3","4","5","6","7","8","9"],
+          
+        ]);
+
+        var options = {
+          title: 'Age vs. Weight comparison',
+          hAxis: {title: 'Age', minValue: 0, maxValue: 15},
+          vAxis: {title: 'Weight', minValue: 0, maxValue: 15},
+          legend: 'none'
+        };
+
+        var chart = new google.visualization.ScatterChart(document.getElementById(callerId));
+
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="chart_div" style="width: 900px; height: 500px;"></div>
+  </body>
+</html>

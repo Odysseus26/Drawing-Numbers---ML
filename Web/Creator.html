@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,maximum-scale=0.9,user-scalable">
+        <meta charset="UTF-8">
+        <title>
+            Data Creator
+        </title>
+        <link rel="stylesheet" href="creator.css">
+    </head>
+    <body>
+        <div id="content">
+            <h1>Data Creator</h1>
+            <p id="random_num"></p>
+            <div>
+                <input type="text" id="student" class="class" placeholder="Type What it is">
+                <button id="advanceBtn" onclick="start()"> Save </button>
+            </div>
+            <br>
+            <div id="sketchPadContainer"></div>
+            <p id="counter"> 0 </p>
+        </div>
+        <script src="draw.js"></script>
+        <script src="creator.js"></script>
+        <script src="own.js"></script>
+        <button oncanplay="write()">Test</button>
+        <script>
+            const sketchPad = new SketchPad(sketchPadContainer)
+
+
+
+
+        </script>
+    </body>
+</html>
